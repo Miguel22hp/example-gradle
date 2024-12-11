@@ -7,5 +7,6 @@ public class App {
     public static void main(String[] args) {
         System.out.println("Hello, Gradle!");
         System.out.println("Hello, Gradle2!");
+        System.out.println("Hello, Gradle3!");
     }
 }
