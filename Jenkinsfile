@@ -44,8 +44,8 @@ def updateGitHubStatus(String state, String description) {
     def context = "continuous-integration/jenkins"
     def commitSha = env.GIT_COMMIT
 
-    withCredentials([usernamePassword(credentialsId: 'github-token', usernameVariable: 'carloslopllo', passwordVariable: 'GITHUB_TOKEN')]) {
-        def apiUrl = "https://api.github.com/repos/carloslopllo/example-gradle/statuses/${commitSha}"
+    withCredentials([usernamePassword(credentialsId: 'github-token', usernameVariable: 'Miguel22hp', passwordVariable: 'GITHUB_TOKEN')]) {
+        def apiUrl = "https://api.github.com/repos/Miguel22hp/example-gradle/statuses/${commitSha}"
         def data = """
         {
             "state": "${state}",
