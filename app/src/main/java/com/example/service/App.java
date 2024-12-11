@@ -6,5 +6,6 @@ package com.example.service;
 public class App {
     public static void main(String[] args) {
         System.out.println("Hello, Gradle!");
+        System.out.println("Hello, Gradle2!");
     }
 }
