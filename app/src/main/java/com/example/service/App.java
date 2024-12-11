@@ -8,5 +8,6 @@ public class App {
         System.out.println("Hello, Gradle!");
         System.out.println("Hello, Gradle2!");
         System.out.println("Hello, Gradle3!");
+        System.out.println("Hello, Gradle4!");
     }
 }
